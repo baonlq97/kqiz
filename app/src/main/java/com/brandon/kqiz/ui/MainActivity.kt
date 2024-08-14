@@ -11,7 +11,9 @@ import androidx.compose.ui.Modifier
 import com.brandon.kqiz.ui.navigation.Screens
 import com.brandon.kqiz.ui.screens.main.MainScreen
 import com.brandon.kqiz.ui.theme.KqizTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

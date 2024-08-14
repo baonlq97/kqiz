@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "Kqiz"
 include(":app")
- 
+include(":data")
+include(":domain")
